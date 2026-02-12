@@ -30,7 +30,7 @@ const MESSAGES=[
 function App() {
   return (
     <section>
-    <Messages messages={MESSAGES}/>
+    <Messages message={MESSAGES}/>
     </section>
   )
 }

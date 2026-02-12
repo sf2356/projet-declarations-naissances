@@ -5,14 +5,14 @@ type Message={
         about:string;
 };
 
-type Props={
+type Prop={
     message:Message[];
 };
 
-function Messages(props:Props) {
-    const messages=props.message;
+function Messages(prop:Prop) {
+    const messages=prop.message;
 return messages.map((message:Message)=>
-<Message key={message.index} firstName={message.about} lastName=""/>)
+<Message about={message.about} index={message.index}/>)
     
 }
 export default Messages
