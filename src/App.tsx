@@ -37,7 +37,6 @@ const USERS=[
     "gender": "male",
     "photo_profil": "http://placehold.it/32x32",
     "birthDate": "2014-01-04T02:06:15 -00:00",
-    "email": "ellismayer@manglo.com",
     "phone": "+1 (883) 499-2132",
     "address": "481 Knapp Street, Williamson, Connecticut, 8193"
   },
@@ -97,7 +96,6 @@ const USERS=[
     "gender": "female",
     "photo_profil": "http://placehold.it/32x32",
     "birthDate": "2017-05-09T02:55:00 -00:00",
-    "email": "lenoreryan@manglo.com",
     "phone": "+1 (818) 480-3581",
     "address": "723 Bay Street, Bethpage, South Carolina, 5782"
   }
