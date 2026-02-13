@@ -12,10 +12,10 @@ function Users (props:Props) {
     const users=props.users;
     return( 
         <div className="container text-center">
-            <div className="row row-cols-2 ">
+            <div className="grid md:grid-cols-4 gap-4">
 {users.map((user:Users)=>
-    <div className=" g-col-6 border border-3 border-primary grid_contains" key={user.identifiant}>
-        <p>{user.name}</p>
+    <div className="border-4 border-indigo-500" key={user.identifiant}>
+        <p className="text-3xl font-bold underline ">{user.name}</p>
         <p>{user.email}</p> 
     </div>
     )}
